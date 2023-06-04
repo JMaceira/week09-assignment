@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Top 5 NBA Players Of All Time</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="container">
+
+    
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">HomePage</a>
+        
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" 
+        aria-control="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                
+                <li class="nav-item active">
+                    <a class="nav-link" href="file:///Users/jmac/Desktop/09%20assignment/index.html">Home</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="file:///Users/jmac/Desktop/09%20assignment/about.html">About</a>
+                </li>
+                
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropDownMenuLink">
+                        <a class="dropdown-item" href="https://www.youtube.com/watch?v=Y0kcm4LTE8E">Tracy</a>
+                        <a class="dropdown-item" href="https://www.youtube.com/watch?v=51CHNtNlFR8">Lebron</a>
+                        <a class="dropdown-item" href="https://www.youtube.com/watch?v=M9PAMJiuOao&t=126s">Shaq</a>
+                        <a class="dropdown-item" href="https://www.youtube.com/watch?v=jbW4f60dCNA">Jordan</a>
+                        <a class="dropdown-item" href="https://www.youtube.com/watch?v=e0cKk6Vhyws">Durant</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <br>
+    <table class="table table-hover table-dark">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Best Team they were on</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr id="row1">
+            <th scope="row">1</th>
+            <td>Tracy</td>
+            <td>McGrady</td>
+            <td>Houston Rockets</td>
+          </tr>
+          <tr id="row2">
+            <th scope="row">2</th>
+            <td>Lebron</td>
+            <td>James</td>
+            <td>Miami Heat</td>
+          </tr>
+          <tr id="row3">
+            <th scope="row">3</th>
+            <td>Shaquille</td>
+            <td>Oneal</td>
+            <td>Los Angeles Lakers</td>
+          </tr>
+          <tr id="row4">
+            <th scope="row">4</th>
+            <td>Michael</td>
+            <td>Jordan</td>
+            <td>Chicago Bulls</td>
+          </tr>
+          <tr id="row5">
+            <th scope="row">5</th>
+            <td>Kevin</td>
+            <td>Durant</td>
+            <td>Golden State Warriors</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <br><br>
+
+      <p>Whos Your G.O.A.T?(Greatest of All Time)</p>
+      
+      <br>
+
+      <form>
+        <div class="form-row align-items-center">
+          <div class="col-auto my-1">
+            <label class="mr-sm-2" for="inlineFormCustomSelect"><p class="preference">Preference</p></label>
+            <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+              <option selected>Choose...</option>
+              <option value="1">Jordan</option>
+              <option value="2">Lebron</option>
+              <option value="3">Other</option>
+            </select>
+          </div>
+          <div class="col-auto my-1">
+            <div class="custom-control custom-checkbox mr-sm-2">
+              <input type="checkbox" class="custom-control-input" id="customControlAutosizing">
+              <label class="custom-control-label" for="customControlAutosizing"><p>This is my G.O.A.T</p></label>
+            </div>
+          </div>
+          <div class="col-auto my-1">
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </div>
+      </form>
+      
+    
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>

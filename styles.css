@@ -1,0 +1,44 @@
+.nav-item {
+    padding: 10px;
+}
+
+body {
+    background-image: url(https://cdn.wallpapersafari.com/58/15/5xhMLI.jpg)
+  }
+
+.preference {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+#Head-Home {
+    color: white;
+}
+
+#row1 {
+    background-color: rgb(16, 36, 215);
+    color: white;
+}
+
+#row2 {
+    background-color: rgb(225, 104, 29);
+    color: white;
+}
+
+#row3 {
+    background-color: rgb(183, 0, 255);
+    color: white;
+}
+
+#row4 {
+    background-color: rgb(242, 18, 18);
+    color: white;
+}
+
+#row5 {
+    background-color: yellow;
+    color: black;
+}
